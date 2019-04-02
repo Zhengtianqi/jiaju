@@ -116,7 +116,7 @@ public class OrderController extends BaseController{
         map.put("order", order);
         logger.info("转到后台管理-订单详情页-ajax方式");
         return "admin/include/orderDetails";
-    }
+    } 
 
     //更新订单信息-ajax
     @ResponseBody

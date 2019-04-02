@@ -22,7 +22,7 @@ import java.net.URLEncoder;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-@Controller
+@Controller 
 public class ForeOrderController extends BaseController {
     @Resource(name = "productService")
     private ProductService productService;

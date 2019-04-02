@@ -27,7 +27,7 @@ import java.util.Map;
 /**
  * 前台-主页
  */
-@Controller
+@Controller 
 public class ForeHomeController extends BaseController {
     @Resource(name = "userService")
     private UserService userService;

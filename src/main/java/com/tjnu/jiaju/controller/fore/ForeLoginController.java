@@ -18,7 +18,7 @@ import java.util.Map;
 /**
  * 前台-登陆页
  */
-@Controller
+@Controller 
 public class ForeLoginController extends BaseController {
     @Resource(name = "userService")
     private UserService userService;

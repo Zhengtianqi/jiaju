@@ -21,7 +21,7 @@ import java.util.Random;
 /**
  * 前台-产品详情页
  */
-@Controller
+@Controller 
 public class ForeProductDetailsController extends BaseController {
     @Resource(name = "productService")
     private ProductService productService;
